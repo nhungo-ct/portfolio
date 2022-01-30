@@ -6,20 +6,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--làm cho trang web responsive-->
     <title>My Porfolio</title>
+    <link href="/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
 </head> 
 <body>
-    <h1>My Portfolio</h1>
-         <p>My main focuses are HTML, CSS, JS, React</p>
-        <p>#ecommerce</p>
-            <p>Nordic Coder</p>
-                <p>HTML, CSS, JS, React</p>
-            <p>Raidius</p>
-                <p>HTML, CSS, JS, React</p>
-            <p>Loulou</p>
-                <p>HTML, CSS, JS, React</p>
-        <p>#technology</p>
-        <p>#entertainment</p>
+    <nav class="navigation">
+    <a href="#">Contact</a>
+    <a href="https://www.facebook.com/" target=blank><i class="fab fa-facebook"></i></a>
+    <a href="https://www.linkedin.com/" target=blank><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/" target=blank><i class="fab fa-github"></i></a>
+    <select name="share" id="share">
+    <option value="share">Share</option>
+    <option value=""></option></a>    
+    </select>
+    </nav>
 
+<main class="flex-container">
+<nav>
+    <div class="about1">
+    <img src="img/profile1.png" alt="Profile image" class="avatar"><br>
+    <p><b>My Name</b></a><br>
+    <a href="mailto:ntqn2512@gmail.com">myemail@gmail.com</a>
+    <button type="button" class="border-none"><i class="fas fa-clone"></i></button>
+    </div>
+    <div class="about2">
+    <p><img src="img/bag.png"> My portfolio</p>
+    <p><img src="img/human_vector.png"> About me</p>
+    </div>
+</nav>
 
+<section>
+    <header class="flex-container">
+        <h1>My <span style="color: red">Portfolio</h1>
+        <p>My main focuses are <b>HTML, CSS, JS, React</b></p>
+        <div>
+        <form>
+            <input type="search" name="gsearch" placeholder="Search">
+            <input type="image" src="/img/search1.svg" alt="Submit">
+        </form>
+        </div>
+    </header>
+
+    <p><a href="#C1"><span style="color: #EB5757;">#ecommerce</span></a></p>
+    <p><a href="#C2">#technology</a></p>
+    <p><a href="#C3">#entertainment</a></p>
+    
+    <h3 id="C1">#ecommerce</h3>
+    <div class="flex-container-article">
+        <article class="article">
+            <img src="img/project-image.png">
+            <p class="tagname">Nordic Coder</p>
+                <p class="description">HTML, CSS, JS, React</p>
+        </article>
+        <article class="article">
+        <img src="img/project-image2.png">
+            <p class="tagname">Raidius</p>
+                <p class="description"><i>HTML, CSS, JS, React</i></p>
+        </article>
+        <article class="article">
+        <img src="img/project-image3.png">
+                 <p class="tagname">Loulou</p>
+                 <p class="description"><i>HTML, CSS, JS, React</i></p>
+        </article>
+        <article class="article">
+                 <img src="img/project-image4.png">
+                 <p class="tagname">Elpis</p>
+                 <p class="description"><i>HTML, CSS, JS, React</i></p>
+        </article>
+    </div>
+    <h3 id="C2">#technology</h3>
+    <div class="flex-container-article">
+             <article class="article"> 
+                <img src="img/tech1.png">
+                    <p class="tagname"><b>Caesar</b></p>
+                    <p class="description"><i>HTML, CSS, JS, React</i></p>
+            </article>
+            <article class="article">
+                     <img src="img/tech2.png">
+                     <p class="tagname"><b>Unblock</b></p>
+                    <p class="description"><i>HTML, CSS, JS, React</i></p>
+            </article>
+            <article class="article">
+                    <img src="img/tech3.png">
+                     <p class="tagname"><b>Euforia</b></p>
+                     <p class="description"><i>HTML, CSS, JS, React</i></p>
+            </article>
+            <article class="article">
+                     <img src="img/tech4.png">
+                     <p class="tagname"><b>Charice</b></p>
+                     <p class="description"><i>HTML, CSS, JS, React</i></p>
+            </article>
+            <article class="article">
+                      <img src="img/tech5.png">
+                      <p class="tagname"><b>Peony</b></p>
+                      <p class="description"><i>HTML, CSS, JS, React</i></p>
+            </article>
+            <article class="article">
+                      <img src="img/tech6.png">
+                      <p class="tagname"><b>Coco Sin</b></p>
+                      <p class="description"><i>HTML, CSS, JS, React</i></p>
+            </article>
+            <article class="article">
+                      <img src="img/tech7.png">
+                      <p class="tagname"><b>Estella</b></p>
+                      <p class="description"><i>HTML, CSS, JS, React</i></p>
+            </article>
+            <article class="article">
+                      <img src="img/tech8.png">
+                      <p class="tagname"><b>Uratv</b></p>
+                      <p class="description"><i>HTML, CSS, JS, React</i></p>
+            </article>
+            <article class="article">
+                      <img src="img/tech9.png">
+                      <p class="tagname"><b>Ugame</b></p>
+                      <p class="description"><i>HTML, CSS, JS, React</i></p>
+            </article>
+</div>
+        <h3 id="C3">#entertainment</h3>
+        <div class="flex-container-article">
+            <article class="article"> 
+                    <img src="img/ent1.png">
+                    <p class="tagname">Mignonne</p>
+                    <p class="description">HTML, CSS, JS, React</p>
+            </article>
+            <article class="article">
+                    <img src="img/ent2.png">
+                    <p class="tagname">Olaben</p>
+                    <p class="description"><i>HTML, CSS, JS, React</i></p>
+            </article>
+            <article class="article">
+                    <img src="img/ent3.png">
+                    <p class="tagname">Arcade</p>
+                    <p class="description"><i>HTML, CSS, JS, React</i></p>
+            </article>
+            </div>
+</section>
+</main>
 </body>
+<footer>
+    <div>
+        <p>Copyright &copy; 2020 Your Name. All rights reserved.</p>
+    </div>
+
+</footer>
 </html>
