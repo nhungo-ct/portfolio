@@ -1,0 +1,140 @@
+
+.navigation{
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+.navigation a{
+    color: white;
+}
+.menu-item-active{
+    border-left: 5px solid #EB5757;
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid #E0E0E0;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red
+}
+.about1 {
+    text-align: center;
+}
+.h3 {
+    font-size: 36px;
+    color: #828282;
+    font-weight: bold;
+}
+.skill{
+    text-align: baseline;
+}
+.vertical-align-bottom{
+    vertical-align: bottom;
+}
+.list-about-me{
+    font-size: 36px;
+    font-weight: bold;
+    color: #828282;
+}
+.favo-song{
+    width: 535.38px;
+}
+p {
+    line-height: 190%;
+}
+.tagname{
+    font-weight: bold;
+    font-size: 18px;
+}
+.description{
+    font-style: italic;
+    font-size: 16px;
+    color:#828282;
+}
+
+@font-face {
+    font-family: portfolio-font;
+    src: url(/font/Gilroy-Regular.ttf);
+}
+*{
+    font-family: portfolio-font;
+}
+
+@font-face {
+    font-family: portfolio-font-2;
+    src: url(/font/Gilroy-Bold.ttf);
+    font-weight: bold;
+}
+h3 {
+    font-family: portfolio-font-2, Helvetica, sans-serif;
+}
+h1{
+    font-size: 2.5em;
+}
+h3{
+    font-size: 36px;
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid #E0E0E0;
+}
+.fab fa-github{
+    border: none;
+}
+.main-button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+.main-button:hover{
+    background-color: silver;
+}
+.article{
+    margin: 10px;
+}
+.avatar{
+    margin-top: 30px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-container-article{
+    display: flex;
+    flex-wrap: wrap;
+}
+input{
+    background-color: #F2F2F2;
+    ;
+}
+textarea{
+    background-color: #F2F2F2;
+    ;
+}
+.pos-rel{
+    position: relative;
+}
+.inline-block{
+    display: inline-block;
+}
+.search-input{
+    padding: 11px, 20px;
+}
+.pos-absolute{
+    position: absolute;
+}
+.search-icon{
+    right: 20px;
+    top: 12px;
+}
+
+
+

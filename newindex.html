@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!-- hiện tiếng việt-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--làm cho trang web responsive-->
+    <title>Contact</title>
+    <link href="/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .navigation{
+            background-color: black;
+            color: white;
+        }
+        .navigation a{
+            color: white;
+        }
+    </style>
+</head> 
+<body>
+    <nav class="navigation">
+    <a href="#">Contact</a>
+    <a href="https://www.facebook.com/" target=blank><i class="fab fa-facebook"></i></a>
+    <a href="https://www.linkedin.com/" target=blank><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/" target=blank><i class="fab fa-github"></i></a>
+    <select name="share" id="share">
+    <option value="share">Share</option>
+    <option value=""></option></a>    
+    </select>
+    </nav>
+
+<main class="flex-container">
+<nav>
+    <div class="about1">
+    <img src="img/profile1.png" alt="Profile image" class="avatar"><br>
+    <p><b>My Name</b></a><br>
+    <a href="mailto:ntqn2512@gmail.com">myemail@gmail.com</a>
+    <button type="button" class="border-none"><i class="fas fa-clone"></i></button>
+    </div>
+    <div class="about2">
+    <p><img src="img/bag.png"> My portfolio</p>
+    <p><img src="img/human_vector.png"> About me</p>
+    </div>
+</nav>
+
+<section>
+    <picture>
+        <source media="(min-width:650px)" srcset="img/desktop.jpg">
+        <source media="(min-width:465px)" srcset="img/tablet.jpg">
+        <img src="img/mobile.jpg" alt="Flowers">
+      </picture>
+    <div>
+        <h1>Contact</h1>
+        <form>
+        <label for="fname"></label><br>
+        <input type="text" id="" name="fname" placeholder="Name"><br><br>
+        <label for="lname"></label><br>
+        <input type="text" id="lname" name="lname" placeholder="Email"><br><br>
+        <label for="help"></label><br>
+        <textarea id="help" name="help" rows="4" cols="50" placeholder="How can I help?"></textarea><br>    
+        <input type="submit" value="Send" class="main-button">
+        </form> 
+    </div>
+   </section> 
+    </main>
+</body>
+<footer>
+    <div>
+        <p>Copyright &copy; 2020 Your Name. All rights reserved.</p>
+    </div>
+
+</footer>
+</html>

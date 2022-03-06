@@ -1,146 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">  <!-- hiện tiếng việt-->
+  <head>
+    <meta charset="UTF-8">
+    <!-- hiện tiếng việt-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--làm cho trang web responsive-->
-    <title>My Porfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--làm cho trang web responsive-->
+    <title>About me</title>
     <link href="/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
-    <style>
-        .navigation{
-            background-color: black;
-            color: white;
-        }
-        .navigation a{
-            color: white;
-        }
-    </style>
-<head>
-<body>
-    <nav class="navigation">
-    <a href="#">Contact</a>
-    <a href="https://www.facebook.com/" target=blank><i class="fab fa-facebook"></i></a>
-    <a href="https://www.linkedin.com/" target=blank><i class="fab fa-linkedin"></i></a>
-    <a href="https://github.com/" target=blank><i class="fab fa-github"></i></a>
-    <select name="share" id="share">
-    <option value="share">Share</option>
-    <option value=""></option></a>    
-    </select>
-    </nav>
-
-<main class="flex-container">
-<nav>
-    <div class="about1">
-    <img src="img/profile1.png" alt="Profile image" class="avatar"><br>
-    <p><b>My Name</b></a><br>
-    <a href="mailto:ntqn2512@gmail.com">myemail@gmail.com</a>
-    <button type="button" class="border-none"><i class="fas fa-clone"></i></button>
+  </head>
+  <body>
+    <div class="black-header">
+      <nav class="black-header-navigation">
+        <a href="#">Contact</a>
+        <a href="https://www.facebook.com/" target=blank>
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target=blank>
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/" target=blank>
+          <i class="fab fa-github"></i>
+        </a>
+        <select name="share" id="share">
+          <option value="share">Share</option>
+          <option value=""></option>
+          </a>
+        </select>
+      </nav>
     </div>
-    <div class="about2">
-    <p><img src="img/bag.png"> My portfolio</p>
-    <a href="index.html" class="menu-item-active"><img src="img/human_vector.png"> About me</a>
-    </div>
-</nav>
 
-    <section>
-    <header>
-    <div>
-    <h1>About  <span style="color: red">Me</span></h1>
-    <p>I am a 2 years experience front end developer.
-        Specialized in HTML, CSS, JS and React, I have always tried to finish my tasks as soon as I can while retaining high quality.</p>
-    </div>
-    </header>
-
-    <section class="flex-container">
-        <div>
-    <h3><span style="color: grey">#skills</h3>
-        <table>
-            <tr>
-                <th>SKILL</th>
-                <th>COMPETENCY</th>
-              </tr>
-              <tr>
-                <td><img src="/img/html.svg" class="vertical-align-bottom"> HTML</th>
-                <th>90%</th>
-              </tr>
-              <tr>
-                <td><img src="/img/css.svg"  class="vertical-align-bottom"> CSS</th>
-                <th>100%</th>
-              </tr>
-              <tr>
-                <td><img src="/img/js.svg"  class="vertical-align-bottom"> JS</th>
-                <th>85%</th>
-              </tr>
-              <tr>
-                <td><img src="/img/react.svg"  class="vertical-align-bottom"> REACT</th>
-                <th>75%</th>
-              </tr>
-        </table>
+    <div class="white-body">
+      <div class="white-body-left">
+        <div class="white-body-left-wrapper">
+          <div class="avatar">
+            <img src="img/profile1.png" alt="Profile image">
+          </div>
+          <div class="body-left-contact">
+            <p>My Name</p>
+            <a href="mailto:ntqn2512@gmail.com">myemail@gmail.com</a>
+            <button type="button" class="border-none">
+              <i class="fas fa-clone"></i>
+            </button>
+          </div>
+          <nav class="white-body-left-menu">
+            <ul>
+              <li>
+                <a href="index.html">
+                  <img src="img/bag.png"> My portfolio
+                </a>
+              </li>
+              <li class="active">
+                <a href="aboutme.html">
+                  <img src="img/human_vector.png"> About me 
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div>
-    <h3 class="list-about-me">#languages</h3>
-        <table>
-            <tr>
-                <th>LANGUAGE</th>
-                <th>COMPETENCY</th>
-              </tr>
-              <tr>
-                <td><img src="/img/UK.png" class="vertical-align-bottom"> English</th>
-                <th>90%</th>
-              </tr>
-              <tr>
-                <td><img src="/img/vietnam.svg" class="vertical-align-bottom"> Vietnamese</th>
-                <th>100%</th>
-              </tr>
-            </table>
-        </div>
-            </section>
-            <div>
-    <h3 class="list-about-me">#most-favorited-songs</h3>
+      </div>
+      <div class="white-body-right">
+        <header class="white-body-right-header-about-me">
+            <div class="header-title">About <span>Me</span>
+            </div>
+            <div class="header-description">
+                <div>I am a 2 years experience front end developer.</div>
+                <div>Specialized in HTML, CSS, JS and React, I have always tried to finish my tasks as soon as I can while retaining high quality.</p>
+            </div>
+            </div>
+            
+        </header>
 
-            <p>Fearless</p>
-            <audio controls>
-                <source src="media/fancy_like.mp3" type="audio/mpeg">
-            </audio>
+        <div class="white-body-right-main-content-about-me">
+            <div class="main-hashtag main-hashtag-more-item">
+                <div class="main-hashtag-skills main-hashtag-item-half">
+                    <h3>#skills</h3>
+                    <table>
+                        <tr>
+                            <th>SKILL</th>
+                            <th>COMPETENCY</th>
+                          </tr>
+                          <tr>
+                            <td><img src="/img/html.svg" class="vertical-align-bottom"> HTML</th>
+                            <td>
+                                <div class="competency-progress-container">
+                                    <div class="competency-progress">
+                                        <div class="progress-90"></div>
+                                    </div>
+                                    <span>90%</span>
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><img src="/img/css.svg"  class="vertical-align-bottom"> CSS</th>
+                            <td>
+                                <div class="competency-progress-container">
+                                    <div class="competency-progress">
+                                        <div class="progress-100"></div>
+                                    </div>
+                                    <span>100%</span>
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><img src="/img/js.svg"  class="vertical-align-bottom"> JS</th>
+                            <td>
+                                <div class="competency-progress-container">
+                                    <div class="competency-progress">
+                                        <div class="progress-85"></div>
+                                    </div>
+                                    <span>85%</span>
+                                </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td><img src="/img/react.svg"  class="vertical-align-bottom"> REACT</th>
+                            <td>
+                                <div class="competency-progress-container">
+                                    <div class="competency-progress">
+                                        <div class="progress-75"></div>
+                                    </div>
+                                    <span>75%</span>
+                                </div>
+                            </td>
+                          </tr>
+                    </table>
+                </div>
 
-            <p>Spring</p>
-            <audio controls>
-                <source src="media/abcdefu.mp3" type="audio/mpeg">
-            </audio>
-    </div>
-    <div  class="favo-video">
-    <h3 class="list-about-me">#most-favorited-videos</h3>
-        <video width= "535.38px" height="280px" controls>
-            <source src="media/clip1.mp4" type="video/mp4">
-        </video>
-        <iframe width="496.2px" height="280px" src="https://www.youtube.com/embed/lv7v8s8vawc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-            <video width= "535.38px" height="280px" controls>
-                <source src="media/clip4.mp4" type="video/mp4">
-            </video>
-        <iframe width="496.2px" height="280px" src="https://www.youtube.com/embed/MwXqwmGYMK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
-        <div>
-    <h3 class="list-about-me">#hobbies</h3>
-    <ul>
-        <li><p>Travel</p></li>
-        <li><p>Shopping</p></li>
-        <li><p>Decoration</p></li>
-    </ul>
-    </div>
-    <div>
-    <h3><span style="color: grey">#address</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.5913022379444!2d106.70562457382997!3d10.774675031121298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752feb4ccb6ec7%3A0x270df7b89299c53b!2zMiBOZ8O0IMSQ4bupYyBL4bq_LCBC4bq_biBOZ2jDqSwgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCA3MDAwMCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1641393102224!5m2!1svi!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">  
-        </iframe>
+                <div class="main-hashtag-language main-hashtag-item-half">
+                    <h3>#language</h3>
+                    <table>
+                        <tr>
+                            <th>LANGUAGE</th>
+                            <th>COMPETENCY</th>
+                          </tr>
+                          <tr>
+                            <td><img src="/img/UK.png" class="vertical-align-bottom"> English</th>
+                            <td>90%</td>
+                          </tr>
+                          <tr>
+                            <td><img src="/img/vietnam.svg" class="vertical-align-bottom"> Vietnamese</th>
+                            <td>100%</td>
+                          </tr>
+                    </table>
+                </div>
+
+            </div>
+
+            <div class="main-hashtag">
+                <h3>#most-favorited-songs</h3>
+                <div class="main-hashtag-more-item main-flex-start">
+                    <div class="main-hashtag-songs">
+                        <p>Fearless</p>
+                        <audio controls>
+                            <source src="media/fancy_like.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                   
+                    <div class="main-hashtag-songs">
+                        <p>Spring</p>
+                        <audio controls>
+                            <source src="media/abcdefu.mp3" type="audio/mpeg">
+                        </audio>
+                </div>
+                </div>
+            </div>
+
+            <div class="main-hashtag">
+                <h3>#most-favorited-videos</h3>
+                <div class="main-hashtag-videos">
+                    <video width= "535.38px" height="280px" controls>
+                        <source src="media/clip1.mp4" type="video/mp4">
+                    </video>
+                    <iframe width="496.2px" height="280px" src="https://www.youtube.com/embed/lv7v8s8vawc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                    <video width= "535.38px" height="280px" controls>
+                        <source src="media/clip4.mp4" type="video/mp4">
+                    </video>
+                    <iframe width="496.2px" height="280px" src="https://www.youtube.com/embed/MwXqwmGYMK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+                
+
+            <div class="main-hashtag main-hashtag-more-item ">
+                <div class="main-hashtag-block-hobbies main-hashtag-item-half">
+                    <h3>#hobbies</h3>
+                    <ul>
+                        <li><p><i class="fas fa-angle-right"></i> Travel</p></li>
+                        <li><p><i class="fas fa-angle-right"></i> Shopping</p></li>
+                        <li><p><i class="fas fa-angle-right"></i> Decoration</p></li>
+                    </ul>
+                </div>
+
+                <div class="main-hashtag-block-address main-hashtag-item-half">
+                    <h3>#address</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.5913022379444!2d106.70562457382997!3d10.774675031121298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752feb4ccb6ec7%3A0x270df7b89299c53b!2zMiBOZ8O0IMSQ4bupYyBL4bq_LCBC4bq_biBOZ2jDqSwgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCA3MDAwMCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1641393102224!5m2!1svi!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">  
+                    </iframe>
+                </div>
+                
+            </div>
+
+            </div>
         </div>
-        </section>
-        </main>
-    </body>
-    </head>
-<footer>
-    <div>
+    </div>
+    <footer>
         <p>Copyright &copy; 2020 Your Name. All rights reserved.</p>
-    </div>
-
-</footer>
-
+    </footer>
+</body>
 </html>
